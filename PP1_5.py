@@ -14,9 +14,10 @@ def q1():
 def q2():
   #Write Assignment code here
   num = input("Input a number: ")
-  num = num + 4
-  num1 = float(num)
-  print(num1 + 2)
+  num = (str(num + 4))
+  num = (float(num))
+  num = (num + 2)
+  print(num)
 
 def q3():
   #Write Assignment code here
@@ -29,7 +30,7 @@ def q3():
 def q4():
   #Write Assignment code here
   num = input("Input a number: ")
-  num = float(num)
+  num = (float(num))
   num = (num * 12)
   num = int(num)
   print(num)
@@ -37,8 +38,8 @@ def q4():
 def q5():
   #Write Assignment code here
   num = input("Input an integer: ")
-  num = int(num)
-  var = num + 5
+  num = (int(num))
+  var = (num + 5)
   print(f"Your number + 5 is: {var}")
 
 #Comment this code out when running tests
