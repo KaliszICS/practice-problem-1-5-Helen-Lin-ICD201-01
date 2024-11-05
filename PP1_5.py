@@ -13,18 +13,17 @@ def q1():
 
 def q2():
   #Write Assignment code here
-  bum = input("Input a number: ")
-  bum = int(bum)
-  bum = bum + 4
-  bum = float(bum)
-  print (bum + 2)
+  num = input("Input a number: ")
+  num = num + 4
+  num = float(num)
+  print (num + 2)
 
 def q3():
   #Write Assignment code here
   radius = input("Input a radius: ")
   radius = float(radius)
+  area = (radius * radius) 
   area = (3.14 * radius) 
-  area = (area * area) 
   print(area)
   
 def q4():
@@ -37,9 +36,9 @@ def q4():
 
 def q5():
   #Write Assignment code here
-  var = input("Input an integer: ")
-  var = int(var)
-  var = var + 5
+  num = input("Input an integer: ")
+  num = int(num)
+  var = num + 5
   print (f"Your number + 5 is: {var}")
 #Comment this code out when running tests
 #Do not comment this out when running your program normally
