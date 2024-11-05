@@ -15,15 +15,15 @@ def q2():
   #Write Assignment code here
   num = input("Input a number: ")
   num = num + 4
-  num = float(num)
-  print (num + 2)
+  num1 = float(num)
+  print(num1 + 2)
 
 def q3():
   #Write Assignment code here
   radius = input("Input a radius: ")
   radius = float(radius)
-  area = (radius * radius) 
-  area = (3.14 * radius) 
+  area = radius * radius
+  area = 3.14 * radius
   print(area)
   
 def q4():
