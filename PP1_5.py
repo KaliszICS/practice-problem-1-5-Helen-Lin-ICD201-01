@@ -39,7 +39,7 @@ def q5():
   num = input("Input an integer: ")
   num = int(num)
   var = num + 5
-  print (f"Your number + 5 is: {var}")
+  print(f"Your number + 5 is: {var}")
 
 #Comment this code out when running tests
 #Do not comment this out when running your program normally
